@@ -1,6 +1,6 @@
 # just a random function
-import sys
 def printIfTrue(m, prefix = ''):
+  import sys
   if m:
     print(prefix + m)
     sys.stdout.flush()
